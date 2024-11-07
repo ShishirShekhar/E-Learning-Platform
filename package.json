@@ -1,0 +1,85 @@
+{
+  "name": "e-learning-platform",
+  "version": "1.0.0",
+  "description": "A server for an e-learning platform that facilitates online courses and assessments.",
+  "main": "src/index.js",
+  "type": "module",
+  "devDependencies": {
+    "@eslint/js": "^9.14.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.8.7",
+    "@types/node-cron": "^3.0.11",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "@types/swagger-ui-express": "^4.1.7",
+    "eslint": "^9.14.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "globals": "^15.12.0",
+    "prettier": "^3.3.3",
+    "swagger-autogen": "^2.23.7"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "swagger": "node src/swagger.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShishirShekhar/E-Learning-Platform.git"
+  },
+  "keywords": [
+    "e-learning",
+    "education",
+    "online courses",
+    "learning platform",
+    "nodejs",
+    "mongoose"
+  ],
+  "author": "Shishir Shekhar",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.0",
+    "node-cron": "^3.0.3",
+    "openai": "^4.71.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "rules": {
+      "no-console": "warn"
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "resolutions": {
+    "punycode": "2.3.1"
+  }
+}
