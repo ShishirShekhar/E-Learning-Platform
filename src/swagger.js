@@ -28,7 +28,7 @@ const doc = {
       url: 'https://opensource.org/licenses/MIT',
     },
   },
-  host: 'localhost:8000',
+  host: 'https://shishir-e-learning-platform.vercel.app',
   basePath: '/api/v1',
   schemes: ['https', 'http'],
   consumes: ['application/json'],
@@ -38,6 +38,10 @@ const doc = {
       url: 'http://localhost:8000',
       description: 'Local server',
     },
+    {
+      url: 'https://shishir-e-learning-platform.vercel.app',
+      description: 'Production server',
+    }
   ],
   tags: [
     { name: 'Auth', description: 'User authentication endpoints' },
